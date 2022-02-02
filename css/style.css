@@ -187,6 +187,7 @@ nav ul#user-info .cart-products a {
 }
 @media (max-width: 540px) {
     .center {
+        margin-top: 30px;
         width: 300px;
     }
 }

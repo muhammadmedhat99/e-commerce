@@ -10,7 +10,7 @@ itemDetails.innerHTML = `<img src="${productDetails.imageUrl}" alt="${
     productDetails.title
 }" />
 <h2>${productDetails.title}</h2>
-<p>${productDetails.discription}</p>
+<p>${productDetails.description}</p>
 <h4>price: ${productDetails.price}</h4>
 ${
     productDetails.isMe == "Y"

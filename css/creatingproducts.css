@@ -20,6 +20,7 @@
 }
 @media (max-width: 540px) {
     .create-products .content {
+        margin-top: 80px;
         width: 300px;
     }
 }
