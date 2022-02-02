@@ -168,7 +168,7 @@ priceFilter.addEventListener("change", filterProducts);
 
 function filterProducts(e) {
     let val = e.target.value;
-    let product = JSON.parse(localStorage.getItem("allProducts")) || product;
+    let product = JSON.parse(localStorage.getItem("allProducts")) || productDB;
 
     if (val === "all") {
         drawProductsUI(product);
