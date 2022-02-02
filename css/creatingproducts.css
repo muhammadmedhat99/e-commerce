@@ -1,0 +1,67 @@
+.create-products {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(120deg, #2980b9, #8e44ad);
+    height: 100vh;
+    overflow: hidden;
+}
+
+.create-products .content {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    box-shadow: -6px 9px 16px -2px rgba(36, 35, 35, 0.8);
+}
+@media (max-width: 540px) {
+    .create-products .content {
+        width: 300px;
+    }
+}
+.create-products .content h2 {
+    color: #2980b9;
+    margin: 25px 0 0;
+    padding-bottom: 25px;
+    border-bottom: 1px solid silver;
+}
+.create-products form input {
+    display: block;
+    font-size: 18px;
+    width: 90%;
+    height: 55px;
+    padding: 10px;
+    margin: 15px auto;
+    border: none;
+    background-color: #ececec;
+    border-radius: 6px;
+    outline: none;
+}
+.create-products form input[type="submit"] {
+    display: block;
+    font-size: 18px;
+    height: 55px;
+    border-radius: 25px;
+    background-color: #2980b9;
+    border: 1px solid;
+}
+.create-products form input[type="submit"]:hover {
+    border-color: #2980b9;
+    transition: 0.5s;
+}
+input[type="file"]::file-selector-button {
+    border: 2px solid #6c5ce7;
+    padding: 0.2em 0.4em;
+    border-radius: 0.2em;
+    background-color: #a29bfe;
+    transition: 1s;
+}
+
+input[type="file"]::file-selector-button:hover {
+    background-color: #81ecec;
+    border: 2px solid #00cec9;
+}

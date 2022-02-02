@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Register</title>
+        <!-- google fonts  -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/register.css" />
+    </head>
+    <body>
+        <!-- header and navbar  -->
+        <header>
+            <div class="container">
+                <div class="header-content">
+                    <a href="index.html" class="logo">Home</a>
+                    <nav>
+                        <ul>
+                            <li>
+                                <a href="login.html" class="login">Sign In</a>
+                                <a href="register.html" class="login"
+                                    >Sign Up</a
+                                >
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <!-- form to log in  -->
+        <section class="section-form">
+            <div class="center">
+                <h2>Sign Up</h2>
+                <form novalidate>
+                    <div class="text-feild">
+                        <input type="text" id="username" required />
+                        <label>Username</label>
+                        <span></span>
+                    </div>
+                    <div class="text-feild">
+                        <input type="email" id="email" required />
+                        <label>E-Mail</label>
+                        <span></span>
+                    </div>
+                    <div class="text-feild">
+                        <input type="password" id="password" required />
+                        <label>Password</label>
+                        <span></span>
+                    </div>
+                    <div class="text-feild last">
+                        <input type="submit" value="Sign Up" id="sign-up" />
+                        <h4>
+                            You Have Account? <a href="login.html">Log In</a>
+                        </h4>
+                    </div>
+                </form>
+            </div>
+        </section>
+        <script src="js/register.js"></script>
+    </body>
+</html>

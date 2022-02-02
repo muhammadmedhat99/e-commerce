@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Profile</title>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+            integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+        <link rel="stylesheet" href="css/style.css" />
+    </head>
+    <body>
+        <!-- header and navbar section  -->
+        <header>
+            <div class="container">
+                <div class="header-content">
+                    <a href="index.html" class="logo">Home</a>
+                    <nav>
+                        <ul id="links">
+                            <li>
+                                <a href="login.html" class="login">Sign In</a>
+                                <a href="register.html" class="login"
+                                    >Sign Up</a
+                                >
+                            </li>
+                        </ul>
+                        <ul id="user-info">
+                            <li>
+                                <img src="" alt="Profile image" />
+
+                                <a href="profile.html" id="user"></a>
+                            </li>
+                            <li class="shopping-menu">
+                                <i class="fas fa-shopping-cart"></i>
+                                <span class="badge"></span>
+                                <div class="cart-products">
+                                    <div></div>
+                                    <a href="carts.html">View all products</a>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="fav.html">Favorites</a>
+                            </li>
+                            <li>
+                                <a href="myproducts.html">My Products</a>
+                            </li>
+                            <li><a href="#" id="log-out">LogOut</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <!-- home page products section  -->
+        <section class="profile-page">
+            <div class="container">
+                <div class="one">
+                    <img src="" alt="profile picture" class="profile-image" />
+                </div>
+                <div class="two">
+                    <h2 class="profile-username"></h2>
+                    <p class="profile-email"></p>
+                    <p class="products-number">
+                        Number Of Products : <span></span>
+                    </p>
+                    <a class="edit-profile" href="edit-profile.html"
+                        >Edit Profile</a
+                    >
+                </div>
+            </div>
+            <a href="create.html" class="create-product-btn"
+                ><i class="fas fa-plus"></i
+            ></a>
+        </section>
+        <script src="js/user.js"></script>
+        <script src="js/database.js"></script>
+        <script src="js/cartMenu.js"></script>
+        <script src="js/profile.js"></script>
+    </body>
+</html>
