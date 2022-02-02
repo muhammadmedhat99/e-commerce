@@ -1,4 +1,4 @@
-let allProducts = JSON.parse(localStorage.getItem("allProducts"));
+let allProducts = JSON.parse(localStorage.getItem("allProducts")) || productDB;
 let productIdDetails = localStorage.getItem("productId");
 let itemDetails = document.querySelector(".item-details");
 
